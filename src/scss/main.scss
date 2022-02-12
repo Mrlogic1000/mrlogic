@@ -1,0 +1,70 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    
+}
+.container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.table-fixed tbody {
+    height: 230px;
+    overflow-y: auto;
+    width: 100%;
+  }
+
+
+$primary: #e74c3c;
+.main-color-bg{
+    background-color: #e74c3c;
+    border-color: #c0392b;
+    color: #ffffff;
+}
+.dragable{
+    -webkit-app-region: drag;
+    position: fixed;
+    top: 0;
+    
+}
+.close{
+    -webkit-app-region: no-drag;
+    color: #ddd !important;
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+    &:hover{
+        color: white !important;
+    }
+}
+.no-drag{
+    -webkit-app-region: no-drag;
+}
+.navbar{
+    height: 33px !important;
+    background-color: #e74c3c !important;
+    margin-bottom: 0;
+    border-radius: 0;
+    
+}
+.nabar-inverse{
+    color: white;
+    background-color: brown;
+}
+#header{
+    width: 100% !important;
+    background-color: #333333;
+    color: #ffffff;
+    padding-bottom: 10px;
+   
+    margin-bottom: 15px;
+}
+.breadcrumb{
+    margin-top: 10px;
+    background-color: #cccccc;
+    color: #333333;
+}
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
