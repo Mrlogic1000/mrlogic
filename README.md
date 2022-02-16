@@ -1,2 +1,2 @@
 # mrlogic
-mrlogic is folder for my projects
+This is app to calculate total loads, size of inverter, battery, solar panel and charge controller
